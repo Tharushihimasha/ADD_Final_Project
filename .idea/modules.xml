@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ADD_Final_Project.iml" filepath="$PROJECT_DIR$/ADD_Final_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Guide Micro Service/Guide Micro Service.iml" filepath="$PROJECT_DIR$/Guide Micro Service/Guide Micro Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hotel Micro Service/Hotel Micro Service.iml" filepath="$PROJECT_DIR$/Hotel Micro Service/Hotel Micro Service.iml" />
+    </modules>
+  </component>
+</project>
