@@ -58,4 +58,5 @@ public class AuthController {
     public ResponseEntity getUser(@PathVariable String email){
         return ResponseEntity.ok(adminServiceImpl.searchUser(email));
     }
+    print
 }
