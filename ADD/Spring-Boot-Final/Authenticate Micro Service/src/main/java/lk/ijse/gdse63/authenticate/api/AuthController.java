@@ -54,9 +54,5 @@ public class AuthController {
         }
     }
 
-    @GetMapping("/{email}")
-    public ResponseEntity getUser(@PathVariable String email){
-        return ResponseEntity.ok(adminServiceImpl.searchUser(email));
-    }
 
 }
