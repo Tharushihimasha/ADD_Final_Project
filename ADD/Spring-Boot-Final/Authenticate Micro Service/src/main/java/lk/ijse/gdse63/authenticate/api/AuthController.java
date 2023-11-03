@@ -53,7 +53,10 @@ public class AuthController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
         }
     }
-
+    @GetMapping("/{email}")
+    public ResponseEntity getUser(@PathVariable String email){
+        return ResponseEntity.ok(adminServiceImpl.searchUser(email));
+    }
 
 
 }
